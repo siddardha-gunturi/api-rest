@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/',(req,res) => {
 
-    res.send("Hello siddu Chilaka");
+    res.send("Hello World from root route");
 });
 
 app.listen(8080,() => {
@@ -11,9 +11,9 @@ app.listen(8080,() => {
 });
 
 app.get('/users',(req,res)=> {
-    res.send("Hello I am siddu i am  banda pandhi and gay");
+    res.send("Hello world from users route");
 });
 
 app.get('/user',(req,res)=>{
-    res.send("Hello I am siddu please kindly give res to gays like me");
+    res.send("Hello world from user route");
 });
